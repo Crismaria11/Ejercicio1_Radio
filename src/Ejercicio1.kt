@@ -9,15 +9,11 @@ class Default(
 )
 fun main(args : Array<String>) {
 
-
-
-
-
     val radioDefault = Default(
-            Estado = apagado,
+            Estado = "apagado",
             Volumen = 2,
-            Estacion = FM,
-            Estado2 = salir
+            Estacion = "FM",
+            Estado2 = "salir"
     )
 
     println(radioDefault)
