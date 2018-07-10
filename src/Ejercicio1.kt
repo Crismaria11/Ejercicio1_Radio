@@ -15,13 +15,10 @@ class Default(
         return Volumen
     }
 
-    fun retornarVolumen():Int{
-      return Volumen
-    }
-
     fun getEstacion():String{
       return Estacion
     }
+
     fun getEstado2():String{
       return Estado2
     }
